@@ -1,4 +1,5 @@
 Bitcoin Trading Application Documentation
+Video navigating how to use it: https://www.youtube.com/watch?v=z-97F7_w6sE
 
 Overview
 This Bitcoin trading application allows users to buy, sell, and automatically trade Bitcoin based on current market

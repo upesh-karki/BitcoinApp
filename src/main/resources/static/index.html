@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Trading App</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Bitcoin Trading Application</h1>
+    <div class="dashboard">
+        <p>Current Bitcoin Price: <span id="bitcoinPrice">Loading...</span> USD</p>
+        <p>Bitcoin Amount: <span id="bitcoinAmount">Loading...</span> BTC</p>
+        <p>Current Value: <span id="currentValue">Loading...</span> USD</p>
+        <p>Profit or Loss: <span id="profitOrLoss">Loading...</span> USD</p>
+        <p>Funds: <span id="funds">Loading...</span> USD <img src="https://media.giphy.com/media/JjtQqOpjnifFFW8fEP/giphy.gif" alt="Money" class="money-gif"></p>
+    </div>
+    <div class="trade-actions">
+        <input type="number" id="investmentAmount" placeholder="Investment Amount in USD">
+        <button onclick="buyBitcoin()" class="styled-button">Buy Bitcoin</button>
+        <button onclick="sellBitcoin()" class="styled-button">Sell Bitcoin</button>
+        <button onclick="toggleAutoTrade()" class="styled-button">Toggle Auto Trade</button>
+    </div>
+    <h2>Trade History</h2>
+    <div class="trade-history">
+        <ul id="tradeList"></ul>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

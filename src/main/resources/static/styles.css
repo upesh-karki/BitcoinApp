@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: 700;
+    color: #00796b;
+}
+
+.dashboard {
+    margin-bottom: 20px;
+}
+
+.dashboard p {
+    font-size: 1.2em;
+}
+
+.money-gif {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.trade-actions {
+    margin-bottom: 20px;
+}
+
+.trade-actions input {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.styled-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: linear-gradient(45deg, #ff4081, #536dfe, #ff4081);
+    background-size: 300% 300%;
+    animation: gradient 5s ease infinite;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.styled-button:hover {
+    transform: scale(1.1);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.trade-history {
+    height: 200px;  /* Adjust the height as needed */
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 1em;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
